@@ -1,0 +1,12 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int x=10,y=2;
+    double z=Math.Pow(x,y);
+    Console.WriteLine (z);
+    double num=2.56;
+    Console.WriteLine(Math.Round(num,1));
+    //Math.Min  Math.Max
+  }
+}
