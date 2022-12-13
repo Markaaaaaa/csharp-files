@@ -17,5 +17,14 @@ class Program {
       sum=sum+n;
     }
     Console.WriteLine (sum);
+    
+    
+    int sum=0,n=25;
+    do
+    {
+      sum=sum+n;
+      n=n+1;
+    }while(n<=75);
+    Console.WriteLine (sum);
   }
 }
