@@ -1,5 +1,5 @@
+//While loop
 using System;
-
 class Program {
   public static void Main (string[] args) {
     int n=-1, sum=0;
@@ -8,6 +8,34 @@ class Program {
       n=n+2;
       sum=sum+n;
     }
+    Console.WriteLine (sum);
+  }
+}
+
+
+//For loop
+using System;
+class Program {
+  public static void Main (string[] args) {
+    int sum=0;
+    for(int n=1;n<=49;n=n+2)
+    {
+      sum=sum+n;
+    }
+    Console.WriteLine (sum);
+  }
+}
+
+
+//Do while loop
+using System;
+class Program {
+  public static void Main (string[] args) {
+  int n=1, sum=0;
+  do{
+      sum=sum+n;
+      n=n+2;
+   }while(n<=49);
     Console.WriteLine (sum);
   }
 }
