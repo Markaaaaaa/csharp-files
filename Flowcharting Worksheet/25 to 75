@@ -9,5 +9,13 @@ class Program {
       sum=sum+n;
     }
     Console.WriteLine (sum);
+    
+    
+    int sum=0;
+    for(int n=24;n<=74;n=n+1)
+    {
+      sum=sum+n;
+    }
+    Console.WriteLine (sum);
   }
 }
