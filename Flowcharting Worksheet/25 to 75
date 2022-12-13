@@ -12,7 +12,7 @@ class Program {
     
     
     int sum=0;
-    for(int n=24;n<=74;n=n+1)
+    for(int n=25;n<=75;n=n+1)
     {
       sum=sum+n;
     }
